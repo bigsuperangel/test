@@ -7,6 +7,7 @@ public class JsoupDemo {
     public static void main(String[] args){
         Gson gson = new Gson();
         System.out.print(gson.toJson(new App("test","test")));
+        System.out.println("test");
     }
 
     static class App{
